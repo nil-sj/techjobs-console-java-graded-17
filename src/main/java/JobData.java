@@ -102,7 +102,7 @@ public class JobData {
                 if (cellContent.toLowerCase().contains(value.toLowerCase())) {
                     if (!foundJobs.contains(row)) { // to avoid duplicates
                         foundJobs.add(row);
-                        break;
+                        //break;
                     }
                 }
             }
